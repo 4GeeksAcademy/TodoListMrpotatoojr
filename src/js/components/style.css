@@ -1,0 +1,80 @@
+/* Contenedor principal */
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Estilos para el input de tarea */
+  .task-input {
+    width: 75%;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  .task-input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Estilo del botón Agregar */
+  .add-btn {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-btn:hover {
+    background-color: #218838;
+  }
+  
+  /* Estilos de la lista de tareas */
+  .task-list {
+    margin-top: 20px;
+  }
+  
+  .task-item {
+    background-color: #f8f9fa;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .task-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .task-item p {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  /* Estilo del botón Eliminar */
+  .delete-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .delete-btn:hover {
+    background-color: #c82333;
+  }
+  
